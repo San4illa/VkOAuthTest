@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VkOAuthTest</string>
+
+    <integer name="com_vk_sdk_AppId">6837140</integer>
+
+    <string name="login_success">Login Success!</string>
+    <string name="login_error">Login Error!</string>
+
+    <string name="action_logout">Logout</string>
+</resources>
