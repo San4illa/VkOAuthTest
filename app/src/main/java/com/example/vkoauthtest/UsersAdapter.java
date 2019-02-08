@@ -10,13 +10,13 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersAdapterViewHolder> {
 
-    private ArrayList<User> users;
+    private List<User> users;
 
-    UsersAdapter(ArrayList<User> users) {
+    UsersAdapter(List<User> users) {
         this.users = users;
     }
 

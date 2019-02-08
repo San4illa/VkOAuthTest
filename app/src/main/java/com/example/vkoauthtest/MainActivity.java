@@ -32,7 +32,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String REQUEST_FIELDS = "first_name,last_name,photo_100";
+    private static final String REQUEST_FIELDS = "first_name,last_name,photo_100";
     private String[] scope = new String[]{VKScope.MESSAGES, VKScope.FRIENDS, VKScope.WALL};
 
     private TextView nameTextView;
